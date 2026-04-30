@@ -16,6 +16,10 @@ body {
 
 }
 
+.box-shadow{
+    box-shadow: 10px 10px 20px #05050534;
+}
+
 /* Header Section Style */
 
 .header-section{
@@ -48,6 +52,7 @@ body {
    padding-bottom: 50px;
    width: 100%;
  margin-bottom: 100px;
+ 
 }
 
 .hero-itms{
@@ -170,12 +175,204 @@ body {
     margin-bottom: 25px;
 }
 
+/* inspiration-section style */
+
+.inspiration-section{
+    max-width: 90%;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #6b676713;
+}
+
+.inspiration-title{
+    max-width: 20%;
+ margin: 0 auto;
+ color: #050505;
+ font-size: 1.8em;
+ font-family: Arial, Helvetica, sans-serif;
+
+margin-bottom: 15px;
+}
+
+.inspiration-dic{
+    max-width: 48%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ margin-bottom: 20px;
+}
+
+.iframe-youtube{
+    max-width: 50%;
+    border: 1px solid #a49fb877;
+    padding: 20px;
+
+    border-radius: 20px;
+    margin: 0 auto;
+
+}
+
+iframe{
+    min-width: 100%;
+     border-radius: 20px;
+
+}
+
+/* skills-card-section style */
+
+.skills-card-section{
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: #08080821;
+    border-radius: 20px;
+    padding: 48px;
+    padding-bottom: 120px;
+    padding-top: 80px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.skills-card-section-title{
+max-width: 30%;
+font-size: 1.8em;
+margin: 0 auto;
+margin-bottom: 10px;
+}
+
+.skills-card-section-dic{
+    max-width: 40%;
+    margin: 0 auto;
+    font-family: cursive;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.card-1{
+    max-width: 20%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1d101027;
+    box-shadow: 0 10px 20px #1416143a;
+}
+.card-1:hover{
+    background-color: #8d473142;
+     box-shadow: 0 20px 30px #1416145d;
+}
+
+.card-2:hover{
+    background-color: #313a8d6c;
+     box-shadow: 0 20px 30px #1416145d;
+}
+.skills-card-pm{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-3:hover{
+    background-color: #5a591673;
+     box-shadow: 0 20px 30px #1416145d;
+}
 
 
 
+/* skills-box-section  style*/
+
+.skills-box-section{
+    max-width: 90%;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: #0303031f;
+   margin-bottom: 50px;
+}
+.skills-box-section-title{
+    max-width: 30%;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    
+}
+
+.every-flex{
+    display: flex;
+    gap: 90px;
+    max-width: 100%;
+    border: 2px solid #2f2f312f;
+    border-radius: 20px;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 30px;
+}
 
 
 
+/* Support Section Style */
+
+.support-section{
+ max-width: 90%;
+ margin: 0 auto;
+ border-radius: 20px;
+ background-image: url(/assets/handshake.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ padding: 50px;
+ margin-bottom: 80px;
+}
+
+.Support-box-pm{
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+.support-section-title{
+  font-size: 1.7em;
+  font-weight: 800;
+  color: #ffffff;
+}
+.support-section-dic{
+    color: #ffffff7e;
+}
+.input{
+    padding: 15px 80px;
+    border-radius: 10px;
+    border: none;
+    color: #08060670;
+}
+.input:focus{
+    outline: none;
+}
+
+.input-btn{
+    padding: 14px 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer Section Style */
+.footer-section{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0505052c;
+    border-radius: 10px;
+    padding: 40px;
+    align-items: center;
+   
+}
+.footer-section a{
+    text-decoration: none;
+}
+
+.footer-icon{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 20px;
+}
 
 
 
@@ -358,10 +555,164 @@ margin-bottom: 40px;
     order: -1;
 }
 
+/* inspiration-section style */
+
+.inspiration-section{
+    max-width: 95%;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #d3d4af6e;
+}
+
+.inspiration-title{
+max-width: 40%;
+ color: #050505;
+ font-size: 1.4em;
+}
+
+.inspiration-dic{
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ margin-bottom: 20px;
+}
+
+.iframe-youtube{
+    max-width: 90%;
+    border: 1px solid #a49fb877;
+    padding: 10px;
+
+    border-radius: 20px;
+    margin: 0 auto;
+
+}
+
+iframe{
+    max-width: 10%;
+     border-radius: 20px;
+
+}
+
+/* skills-card-section style */
+
+.skills-card-section{
+    max-width: 90%;
+    background-color: #8cb67c48;
+    border-radius: 20px;
+    padding: 48px;
+    padding-bottom: 120px;
+    padding-top: 80px;
+}
+
+.skills-card-section-title{
+max-width: 90%;
+font-size: 1.5em;
+margin: 0 auto;
+margin-bottom: 10px;
+display: flex;
+justify-content: center;
+}
+
+.skills-card-section-dic{
+    max-width: 90%;
+    text-align: center;
+    font-size: 1.2em;
+   
+    
+}
+
+.card-1{
+    max-width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1d101027;
+    box-shadow: 0 10px 20px #1416143a;
+}
+.card-1:hover{
+    background-color: #8d473142;
+     box-shadow: 0 20px 30px #1416145d;
+}
+
+.card-2:hover{
+    background-color: #313a8d6c;
+     box-shadow: 0 20px 30px #1416145d;
+}
+.skills-card-pm{
+   display: grid;
+   grid-template-columns: repeat(2 , 1fr);
+  gap: 20px;
+  
+}
+
+.card-3:hover{
+    background-color: #5a591673;
+     box-shadow: 0 20px 30px #1416145d;
+}
+
+/* skills-box-section  style*/
+
+.skills-box-section-title{
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.8em;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    
+}
+
+.every-flex{
+    gap: 20px;
+  
+}
+
+/* Support Section Style */
+
+.support-section{
+max-width: 100%;
+ padding: 10px;
+
+}
+
+.Support-box-pm{
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.support-section-title{
+ display: flex;
+ justify-content: center;
+}
+.support-section-dic{
+    max-width: 100%;
+    color: #cfc7c7e0;
+    
+    
+}
+.input{
+    padding: 15px 60px;
+    border-radius: 10px;
+    border: none;
+    color: #08060670;
+}
+
+/* Footer Section Style */
 
 
+.footer-icon{
+    gap: 10px;
+}
 
-
+.copyright{
+    max-width: 65%;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: bold;
+}
 
 }
 
